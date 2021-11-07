@@ -1,0 +1,10 @@
+package ch07;
+
+public class ExceptionEx01 {
+
+	public static void main(String[] args) {
+		// 컴파일 예외
+		Thread.sleep(1000);
+	}
+
+}

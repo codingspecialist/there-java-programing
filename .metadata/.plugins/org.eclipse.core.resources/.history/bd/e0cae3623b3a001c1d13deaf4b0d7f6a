@@ -1,0 +1,60 @@
+package ch05;
+
+abstract class 홀직원{
+	abstract void 청소();
+}
+
+abstract class 종업원 extends 홀직원{
+	void 서빙하기() {
+		System.out.println("서빙하기");
+	}
+	void 주문받기() {
+		System.out.println("주문받기");
+	}
+}
+
+abstract class 캐셔 extends 홀직원 {
+	void 정산하기() {
+		System.out.println("정산하기");
+	}
+	void 계산하기() {
+		System.out.println("계산하기");
+	}
+}
+
+abstract class 요리사 {
+	abstract void 요리();
+}
+
+class 홍길동 {
+	
+}
+
+class 임꺽정 {
+	
+}
+
+class 김유신 {
+	
+}
+
+class 이몽룡 {
+	
+}
+
+class 장보고 {
+	
+}
+
+class 이순신 {
+	
+}
+
+public class OOPEx10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

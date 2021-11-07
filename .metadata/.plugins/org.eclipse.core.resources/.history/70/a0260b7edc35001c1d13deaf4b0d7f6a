@@ -1,0 +1,8 @@
+package recipe;
+
+public class MySoup {
+
+	void 김치찌게() {
+		System.out.println("김치찌게가 만들어졌습니다.");
+	}
+}

@@ -1,0 +1,12 @@
+package ch03;
+
+public class CoinExample {
+
+	public static void main(String[] args) {
+		// 최소 동전구하기 500, 100, 50, 10
+		int money = 2680;
+		
+		System.out.println("500원 : "+(money/500));
+	}
+
+}

@@ -1,0 +1,14 @@
+package ch06;
+
+class ±Ã¼ö{
+	String name = "±Ã¼ö";
+}
+class Àü»ç{
+	String name = "Àü»ç";
+}
+
+public class ObjectEx02 {
+	public static void main(String[] args) {
+		
+	}
+}

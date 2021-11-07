@@ -1,0 +1,35 @@
+package ch06;
+
+public class ArrayForEx01 {
+
+	public static void main(String[] args) {
+		// 최소 동전구하기 500, 100, 50, 10
+		int coin[] = {500, 100, 50, 10};
+		int money = 1350;
+		int restMoney = money;
+		
+		
+		// 아래의 스텝 4개를 배열과 for문을 이용해서 수정하세요!! - 리팩토링(재생산)
+		
+		// 스탭 1
+		System.out.println(coin[0]+"원 : "+(restMoney/coin[0])); // 180원 남음
+		restMoney = restMoney%coin[0];
+		System.out.println("남은금액 : "+restMoney);
+		
+		// 스탭 2
+		System.out.println(coin[1]+"원 : "+(restMoney/coin[1]));
+		restMoney = restMoney%coin[1];
+		System.out.println("남은금액 : "+restMoney);
+		
+		// 스탭 3
+		System.out.println(coin[2]+"원 : "+(restMoney/coin[2]));
+		restMoney = restMoney%coin[2];
+		System.out.println("남은금액 : "+restMoney);
+		
+		// 스탭 4
+		System.out.println(coin[3]+"원 : "+(restMoney/coin[3]));
+		restMoney = restMoney%coin[3];
+		System.out.println("남은금액 : "+restMoney);
+	}
+
+}

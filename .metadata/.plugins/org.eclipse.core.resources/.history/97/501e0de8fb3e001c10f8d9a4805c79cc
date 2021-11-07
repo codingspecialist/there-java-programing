@@ -1,0 +1,17 @@
+package ch06;
+
+class 매직바구니<T>{
+	
+	T 테스트(T data) {
+		return data;
+	}
+}
+
+public class GenericEx03 {
+
+	public static void main(String[] args) {
+		매직바구니<String> s = new 매직바구니<>();
+		System.out.println(s.테스트("안뇽"));
+	}
+
+}

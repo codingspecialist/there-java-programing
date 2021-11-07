@@ -1,0 +1,39 @@
+package ch05;
+
+class 전사{ // 검
+	String name="전사";
+	
+	void 기본공격() {
+		System.out.println("검으로 공격하기");
+	}
+}
+
+class 궁수{ // 활
+	String name="궁수";
+	
+	void 기본공격() {
+		System.out.println("활로 공격하기");
+	}
+}
+
+class 광전사{ // 도끼
+	String name="광전사";
+	
+	void 기본공격() {
+		System.out.println("도끼로 공격하기");
+	}
+}
+
+public class OOPEx05 {
+	
+	static void attack() {
+		
+	}
+
+	public static void main(String[] args) {
+		전사 u1 = new 전사();
+		궁수 u2 = new 궁수();
+		광전사 u3 = new 광전사();
+	}
+
+}

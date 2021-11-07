@@ -1,0 +1,19 @@
+package ch05;
+
+abstract class À°½Äµ¿¹° {
+	void °È±â() {
+		System.out.println("°È´Ù");
+	}
+}
+
+class ¹ì{
+	
+}
+
+class »çÀÚ{
+	
+}
+
+public class OOPEx08 {
+
+}

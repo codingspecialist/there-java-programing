@@ -1,0 +1,88 @@
+package ch05;
+
+interface MoveAble {
+	// public abstract 이 생략되어 있음.
+	void 위();
+	void 아래();
+	void 왼쪽();
+	void 오륵쪽();
+	
+}
+
+abstract class 사나운동물 implements MoveAble{
+	abstract void 공격(); // 미완성된 메서드
+}
+
+abstract class 온순한동물 implements MoveAble{
+	abstract void 채집(); // 미완성된 메서드
+}
+
+// 구현이 자식 클래스로 위임(위, 아래, 왼쪽, 오른쪽)
+class 원숭이 extends 온순한동물{
+
+	@Override  // 어노테이션 = JVM이 실행시에 분석해서 확인 = JVM의 힌트
+	void 채집() {
+		System.out.println("바나나 채집");
+	}
+
+	@Override
+	public void 위() {
+		System.out.println("위쪽으로 이동");
+	}
+
+	@Override
+	public void 아래() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void 왼쪽() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void 오륵쪽() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+class 소 extends 온순한동물{
+
+	@Override
+	void 채집() {
+		System.out.println("풀 채집");
+	}
+	
+}
+
+class 호랑이 extends 사나운동물{
+
+	@Override
+	void 공격() {
+		System.out.println("이빨로 공격");
+	}
+	
+}
+
+class 코뿔소 extends 사나운동물{
+
+	@Override
+	void 공격() {
+		System.out.println("몸통 박치기로 공격");
+	}
+	
+}
+
+
+
+public class OOPEx09 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

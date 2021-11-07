@@ -1,0 +1,25 @@
+package ch05;
+
+class Àü»ç{ // °Ë
+	String name="Àü»ç";
+}
+
+class ±Ã¼ö{ // È°
+	String name="±Ã¼ö";
+}
+
+class ±¤Àü»ç{ // µµ³¢
+	String name="±¤Àü»ç";
+}
+
+public class OOPEx05 {
+	
+	void attack() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

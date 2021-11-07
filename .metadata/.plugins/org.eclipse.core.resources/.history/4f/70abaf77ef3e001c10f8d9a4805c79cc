@@ -1,0 +1,13 @@
+package ch06;
+
+public class ConEx03 {
+
+	public static void main(String[] args) {
+		int point = 70;
+		
+		// 90점이 넘으면 차를 사주겠다.
+		// 80점이 넘으면 자전거를 사주겠다.
+		// 그게 아니면 벌을 주겠다.
+	}
+
+}

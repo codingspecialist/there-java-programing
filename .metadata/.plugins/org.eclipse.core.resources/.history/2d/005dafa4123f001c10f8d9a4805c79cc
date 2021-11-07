@@ -1,0 +1,10 @@
+package ch07;
+
+public class ThreadEx01 {
+
+	// 자바의 메인 스레드
+	public static void main(String[] args) {
+		
+	}
+
+}

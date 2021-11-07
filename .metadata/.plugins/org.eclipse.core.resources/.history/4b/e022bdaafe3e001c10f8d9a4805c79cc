@@ -1,0 +1,18 @@
+package ch06;
+
+class 가방<T>{
+	T data;
+}
+
+
+public class GenericEx03 {
+
+	static <T> 가방<T> getName(가방<T> s) {
+		return s;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

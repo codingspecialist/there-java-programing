@@ -1,0 +1,14 @@
+package ch07;
+
+public class ExceptionEx01 {
+
+	public static void main(String[] args) {
+		// 컴파일 예외
+		try {
+			Thread.sleep(1000); // 메인스레드 1초동안 잠을 잔다!!
+		} catch (InterruptedException e) { // 방해!!
+			e.printStackTrace();
+		}
+	}
+
+}

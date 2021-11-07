@@ -1,0 +1,20 @@
+package ch06;
+
+
+
+class °¡¹æ<T> {
+	private T data;
+	
+	public T getData() {
+		return data;
+	}
+	
+	public void setData(T data) {
+		this.data = data;
+	}
+}
+
+
+public class GenericEx03 {
+
+}

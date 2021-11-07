@@ -1,0 +1,22 @@
+package ch06;
+
+class 호랑이{
+	String name = "호랑이";
+}
+
+class 사자 {
+	String name = "사자";
+}
+
+// 호랑이, 사자
+class 큰바구니{
+	Object data;
+}
+
+public class GenericEx02 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

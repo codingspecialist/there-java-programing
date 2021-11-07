@@ -1,0 +1,17 @@
+package ch03;
+
+public class OperEx06 {
+
+	public static void main(String[] args) {
+		int money = 130; // 100, 10
+		
+		int coin100 = money/100; // 130/100
+		System.out.println(coin100);
+		
+		// 커멜 표기법 (낙타표기법) = 두개이상의 단어가 하나의 변수 = 띄어쓰기 대신 대문자를 써요
+		// 첫글자는 소문자로 시작하고 두개의 단어가 이어이질 때 대문자!!
+		double doubleCoin100 = money/100;
+		System.out.println(doubleCoin100);
+	}
+
+}

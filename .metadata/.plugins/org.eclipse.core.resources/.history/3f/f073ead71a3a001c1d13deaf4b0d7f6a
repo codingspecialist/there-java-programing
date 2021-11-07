@@ -1,0 +1,22 @@
+package ch05;
+
+class Animal {
+	void speak() {}
+}
+
+class Dog extends Animal{
+	
+}
+
+class Cat extends Animal{
+	
+}
+
+public class OOPEx07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

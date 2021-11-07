@@ -1,0 +1,14 @@
+package ch06;
+
+// 호랑이, 사자
+class 큰바구니{
+	Object data;
+}
+
+public class GenericEx02 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

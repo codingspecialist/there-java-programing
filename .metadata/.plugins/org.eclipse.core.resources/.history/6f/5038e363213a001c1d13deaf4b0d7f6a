@@ -1,0 +1,31 @@
+package ch05;
+
+abstract class 육식동물 {
+	void 걷기() {
+		System.out.println("걷다");
+	}
+	
+	// 미완성 설계도
+	abstract void 공격();
+}
+
+class 뱀 extends 육식동물{
+
+	@Override
+	void 공격() {
+		System.out.println("독으로 공격");
+	}
+}
+
+class 사자 extends 육식동물{
+
+	@Override
+	void 공격() {
+		System.out.println("이빨로 공격");
+	}
+	
+}
+
+public class OOPEx08 {
+
+}

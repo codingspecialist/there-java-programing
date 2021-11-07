@@ -1,0 +1,6 @@
+package ch04;
+
+public class Cat {
+	String name = "Áý»ç";
+	String color = "ÇÏ¾á»ö";
+}

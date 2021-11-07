@@ -1,0 +1,42 @@
+package ch06;
+
+public class ArrayForEx01 {
+
+	public static void main(String[] args) {
+		// 최소 동전구하기 500, 100, 50, 10
+		int coin[] = {500, 100, 50, 10};
+		int money = 45484320;
+		int restMoney = money;
+		
+		// 변수명 첫글자가 숫자가 될 수 없다.
+		int count500 = 0;
+		int count100 = 0;
+		int count50 = 0;
+		int count10 = 0;
+		
+		// 스탭 1
+		count500 = restMoney/coin[0];
+		System.out.println(coin[0]+"원 : "+(restMoney/coin[0])); // 180원 남음
+		restMoney = restMoney%coin[0];
+		System.out.println("남은금액 : "+restMoney);
+		
+		// 스탭 2
+		count100 = restMoney/coin[1];
+		System.out.println(coin[1]+"원 : "+(restMoney/coin[1]));
+		restMoney = restMoney%coin[1];
+		System.out.println("남은금액 : "+restMoney);
+		
+		// 스탭 3
+		count50 = restMoney/coin[2];
+		System.out.println(coin[2]+"원 : "+(restMoney/coin[2]));
+		restMoney = restMoney%coin[2];
+		System.out.println("남은금액 : "+restMoney);
+		
+		// 스탭 4
+		count10 = restMoney/coin[3];
+		System.out.println(coin[3]+"원 : "+(restMoney/coin[3]));
+		restMoney = restMoney%coin[3];
+		System.out.println("남은금액 : "+restMoney);
+	}
+
+}

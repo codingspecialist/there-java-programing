@@ -1,0 +1,15 @@
+package ch06;
+
+// 경우에 따라 문자열을 담고, 숫자를 담고
+class 바구니{
+	Object data;
+}
+
+public class GenericEx01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

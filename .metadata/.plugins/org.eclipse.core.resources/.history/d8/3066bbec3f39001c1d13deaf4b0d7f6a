@@ -1,0 +1,6 @@
+package ch04;
+
+public class People {
+	String name;
+	int age;
+}

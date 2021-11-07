@@ -1,0 +1,22 @@
+package ch07;
+
+public class ExceptionEx01 {
+
+	public static void main(String[] args) {
+		// 컴파일 예외
+		try {
+			System.out.println("잠자기 시작");
+			Thread.sleep(3000); // 메인스레드 3초동안 잠을 잔다!!
+			System.out.println("잠자기 끝");
+		} catch (InterruptedException e) { // 방해!!
+			e.printStackTrace();
+		}
+		
+		// 런타임 예외
+		int[] nums = {1,2,3};
+		System.out.println(nums[3]);
+		
+		System.out.println("메인 스레드 종료");
+	}
+
+}

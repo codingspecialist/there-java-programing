@@ -1,0 +1,11 @@
+package ch04;
+
+// 값을 초기화하지 않는 이유는 new 할때마다 다른 상태를 가진 고양이를 만들기 위해서이다!!
+public class Cat {
+	String name;
+	String color;
+	
+	public Cat() { // 생성자(메서드)
+		System.out.println("고양이가 탄생함");
+	}
+}

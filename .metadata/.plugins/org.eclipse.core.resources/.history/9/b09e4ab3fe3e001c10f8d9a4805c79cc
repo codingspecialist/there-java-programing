@@ -1,0 +1,18 @@
+package ch06;
+
+class 가방<T>{
+	T data;
+}
+
+
+public class GenericEx03 {
+
+	static <T> 가방<T> 꺼내기(가방<T> s) {
+		return s;
+	}
+	
+	public static void main(String[] args) {
+		꺼내기(new 가방<String>());
+	}
+
+}

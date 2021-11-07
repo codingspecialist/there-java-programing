@@ -1,0 +1,18 @@
+package ch06;
+
+class 掙熱{
+	String name = "掙熱";
+}
+class 瞪餌{
+	String name = "瞪餌";
+}
+
+public class ObjectEx02 {
+	public static void main(String[] args) {
+		掙熱[] s1 = new 掙熱[2];
+		s1[0] = new 掙熱();
+		s1[1] = new 掙熱();
+		
+		System.out.println(s1[0].name);
+	}
+}

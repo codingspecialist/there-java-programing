@@ -1,0 +1,10 @@
+package ch04.b;
+
+// main이 있는 자바파일을 실행파일
+public class App {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

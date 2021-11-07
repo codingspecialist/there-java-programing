@@ -1,0 +1,20 @@
+package ch05;
+
+
+
+class Dog {
+	
+}
+
+class Cat {
+	
+}
+
+public class OOPEx07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

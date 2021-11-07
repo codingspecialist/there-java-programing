@@ -1,0 +1,42 @@
+package ch06;
+
+class 필기구 {
+	
+}
+
+class 연필 extends 필기구{
+	String name = "연필";
+}
+class 노트 extends 필기구{
+	String name = "노트";
+}
+
+class 가방<C> {
+	C data;
+}
+
+public class GenericEx03 {
+
+	// 자바에서 유일한 타입 추론 = 리턴시에 추론
+	static 가방<? extends 필기구> 꺼내기(boolean check) {
+		if(check) {
+			// 가방 - 연필 리턴
+			가방<연필> s1 = new 가방<>();
+			s1.data = new 연필();
+			return s1;
+		}else {
+			// 가방 - 노트 리턴
+			가방<노트> s2 = new 가방<>();
+			s2.data = new 노트();
+			return s2;
+		}
+	}
+	
+	public static void main(String[] args) {
+		가방<? extends 필기구> d1 = 꺼내기(true); // 연필
+		//연필 s1 = (연필) d1.data;
+		//System.out.println(s1.name);
+		
+	}
+
+}

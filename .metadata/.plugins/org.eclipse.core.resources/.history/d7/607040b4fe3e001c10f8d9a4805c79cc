@@ -1,0 +1,12 @@
+package ch06;
+
+class °¡¹æ<T>{
+	T data;
+}
+
+
+public class GenericEx03 {
+
+	
+
+}

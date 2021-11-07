@@ -1,0 +1,13 @@
+package ch06;
+
+class Dog {
+	private String name = "≈‰≈‰";
+}
+
+public class ObjectEx01 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
