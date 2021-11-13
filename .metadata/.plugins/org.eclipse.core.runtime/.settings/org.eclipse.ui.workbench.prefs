@@ -16,6 +16,7 @@ org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Verdana|16.2|0|WINDOWS|1|-27|
 org.eclipse.jdt.ui.editors.textfont=1|Verdana|16.2|0|WINDOWS|1|-27|0|0|0|400|0|0|0|0|3|2|1|34|Verdana;
 org.eclipse.jface.textfont=1|Verdana|16.2|0|WINDOWS|1|-27|0|0|0|400|0|0|0|0|3|2|1|34|Verdana;
 org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Verdana|16.2|0|WINDOWS|1|-27|0|0|0|400|0|0|0|0|3|2|1|34|Verdana;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=255,255,255
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=16,16,16

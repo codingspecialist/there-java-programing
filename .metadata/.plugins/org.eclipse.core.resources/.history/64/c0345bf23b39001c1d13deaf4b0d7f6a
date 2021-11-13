@@ -1,9 +1,0 @@
-package ch04;
-
-public class Cat {
-	int age;
-	String name;
-	String color;
-	// final 필드는 무조건 초기화 되어야 한다. (new가 된 시점부터는)
-	final String type = "고양이";
-}

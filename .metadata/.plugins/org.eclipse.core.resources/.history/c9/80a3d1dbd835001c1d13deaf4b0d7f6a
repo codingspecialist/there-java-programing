@@ -1,9 +1,0 @@
-package ch04.b;
-
-public class App {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
